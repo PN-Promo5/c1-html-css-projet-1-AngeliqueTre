@@ -1,0 +1,360 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .btn {
+    font-size: 1.8rem;
+  }
+
+  /*Start nav*/
+  .logo {
+    height: 60px;
+    top: -17px;
+    left: 5px;
+  }
+
+  .menu_principal {
+    font-size: 0.4rem;
+    padding: 5px 0;
+  }
+
+  .menu_principal ul {
+    padding: 5px 5px;
+  }
+
+  .menu_principal ul li {
+    padding-left: 5px;
+  }
+
+  /*End nav*/
+  /*Start header*/
+  .home_header {
+    width: 100%;
+    height: 500px;
+  }
+
+  .titre {
+    font-size: 2.5rem;
+    width: 85%;
+    text-align: center;
+  }
+
+  .desc {
+    font-size: 1.5rem;
+    width: 80%;
+    text-align: center;
+  }
+
+  /*End header*/
+  /*Start avantage*/
+  .titre_avantage {
+    font-size: 1.8rem;
+  }
+
+  .avantage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icone_avantage {
+    height: 90px;
+  }
+
+  .avantage article:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .avantage article:nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .avantage article:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .avantage article:nth-child(4) {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .avantage p {
+    padding-right: 0;
+    font-size: 1.3rem
+  }
+
+  /*End avantage*/
+  /*Start présentation du concept*/
+  .image1_presentation {
+    display: none;
+  }
+
+  .texte_presentation {
+    width: 100%;
+  }
+
+  /*End présenation du concept*/
+  /*Start fiche de produit*/
+  .product_row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product {
+    margin-top: 30px;
+  }
+
+  .product_body h3 {
+    font-size: 1.9rem;
+  }
+
+  .product_body .price {
+    font-size: 1.9rem margin: 15px 2px;
+  }
+
+  /*End fiche de produit*/
+  /*Star bandeau promo*/
+  .promo {
+    width: 100%;
+  }
+
+  .promo_sous_titre {
+    font-size: 1.5rem;
+    width: 85%;
+  }
+
+  .promo p {
+    font-size: 1rem;
+    width: 75%;
+  }
+
+  /*End bandeau promo*/
+  /*Start footer*/
+  footer article:nth-child(1) {
+    display: none;
+  }
+
+  .footer_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  form {
+    width: 95%;
+  }
+
+  /*End footer*/
+  /*Start ancre*/
+  .ancre {
+    width: 15px;
+  }
+
+  /*End ancre*/
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+/*Start nav*/
+  .logo {
+    height: 80px;
+    top: -17px;
+    left: 5px;
+  }
+  .menu_principal {
+    font-size: 0.8rem;
+  }
+/*End nav*/
+/*Start header*/
+  .titre{
+    font-size: 3rem;
+  }
+  .desc{
+    font-size: 1.5rem;
+  }
+  .home_header .btn{
+    margin-top: 20px;
+  }
+  /*End header*/
+  /*Start avantage*/
+  .avantage{
+    flex-direction: column;
+  }
+  .avantage article:nth-child(1){
+    flex-direction: row;
+    width: 90%;
+  }
+  .avantage article:nth-child(2){
+    flex-direction: row-reverse;
+    width: 90%;
+  }
+  .avantage article:nth-child(3){
+    flex-direction: row;
+    width: 90%;
+  }
+  .avantage article:nth-child(4){
+    flex-direction: row-reverse;
+    width: 90%;
+  }
+  p.condition_de_prise_en_charge {
+    width: 90%;
+  }
+  /*End avantage*/
+  /*Start presentation*/
+  .image1_presentation{
+    display: none;
+  }
+  .presentation{
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  /*End presentation*/
+  /*Start product*/
+  .product{
+    margin: 10px 10px;
+  }
+  .product_row{
+    width: 100%;
+  }
+
+  .heart{
+    left: 87%;
+    top: 3%;
+  }
+  .product_body h3{
+    font-size: 1.6rem;
+  }
+  .product_body .price{
+    font-size: 1.6rem;
+  }
+/*End product*/
+/*Start beandeau promo*/
+.promo{
+  height: 450px;
+}
+/*End bandeau promo*/
+
+/*Start footer*/
+footer article:nth-child(1){
+  display: none;
+}
+
+form{
+  width: 95%;
+}
+/*End footer*/
+}
+
+
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+/*Start nav*/
+  .logo {
+    height: 110px;
+    top: -30px;
+    left: 50px;
+  }
+/*End nav*/
+/*Start heander*/
+.titre{
+  font-size: 4rem;
+}
+
+.desc{
+  font-size: 1.8rem;
+}
+/*End header*/
+/*Start avantge*/
+.avantage{
+  flex-direction: row;
+}
+
+.avantage article:nth-child(1){
+  flex-direction: column;
+    width: 100%;
+}
+.avantage article:nth-child(2){
+  flex-direction: column;
+    width: 100%;
+}
+.avantage article:nth-child(3){
+  flex-direction: column;
+    width: 100%;
+}
+.avantage article:nth-child(4){
+  flex-direction: column;
+  width: 100%;
+}
+p.condition_de_prise_en_charge {
+  width: 100%;
+}
+/*End avantage*/
+/*Start presentation*/
+.presentation{
+  flex-direction: row;
+  padding-bottom: 0;
+}
+.image1_presentation{
+  display: block;
+}
+.texte_presentation h2 {
+    padding-bottom: 20px;
+}
+
+.texte_presentation p{
+  padding-bottom: 10px;
+}
+/*End presentation*/
+/*Start product*/
+.heart{
+  left: 90%;
+  top: 3%;
+}
+.product{
+  margin: 10px 5px;
+}
+.product_body h3{
+  font-size: 1.7rem;
+}
+.product_body .price{
+  font-size: 1.7rem;
+}
+
+/*End product*/
+/*Start promo*/
+
+/*End promo*/
+/*Start footer*/
+footer article:nth-child(1){
+  display: block;
+}
+form{
+  width: 100%;
+}
+/*End footer*/
+}
