@@ -1,5 +1,5 @@
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
   .container {
     width: 100%;
     padding: 0;
@@ -156,8 +156,19 @@
     flex-direction: column-reverse;
   }
 
+  .liens h4{
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+
+  .liens p {
+    padding: 10px 10px;
+    font-size: 0.9rem;
+  }
+
   form {
     width: 95%;
+    padding: 0 10px;
   }
 
   /*End footer*/
@@ -170,7 +181,7 @@
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width : 640px) and (max-device-width : 1024px) {
   .container {
     width: 100%;
     padding: 0;
@@ -268,7 +279,7 @@ form{
 
 
 /* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+@media only screen and (min-device-width : 640px) and (max-device-width : 1024px) and (orientation : landscape) {
   .container {
     width: 100%;
     padding: 0;
