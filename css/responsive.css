@@ -19,16 +19,30 @@
   .menu_principal {
     font-size: 0.4rem;
     padding: 5px 0;
+    width: %;
   }
 
+  label{
+    display: block;
+    cursor: pointer;
+  }
   .menu_principal ul {
+    text-align: center;
+    width: 100%;
+    display: none;
     padding: 5px 5px;
   }
 
   .menu_principal ul li {
+    display: block;
+    border-top: 1px solid white;
+    margin-right: 0;
     padding-left: 5px;
   }
 
+   #toggle:checked + .menu{
+     display: block;
+   }
   /*End nav*/
   /*Start header*/
   .home_header {
