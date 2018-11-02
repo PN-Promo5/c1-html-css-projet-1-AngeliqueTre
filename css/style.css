@@ -125,17 +125,6 @@ a:hover {
 ul li a:hover {
   color: #8e0000;
 }
-nav label {
-  color: white;
-  margin: 0 10px 0 0;
-  font-size: 50px;
-  line-height: 70px;
-  display: none;
-}
-
-#toggle {
-  display: none;
-}
 /*End nav*/
 /*Start header*/
 .home_header {
@@ -463,6 +452,8 @@ label {
   font-size: 0.9rem;
   margin: 5px 0;
   padding: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.30), 0 3px 6px rgba(0, 0, 0, 0.35);
+  border: 1px solid white;
 }
 
 form textarea {
@@ -470,12 +461,17 @@ form textarea {
 }
 
 .saisie:focus {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.30), 0 3px 6px rgba(0, 0, 0, 0.35);
+  outline: none;
+  border: 1px solid black;
 }
 
 form .btn {
+  display: block;
+  width: 98%;
   font-size: 1rem;
   margin: 10px 0;
+  padding: 5px 10px;
+  text-align: center;
 }
 
 /*End footer*/
